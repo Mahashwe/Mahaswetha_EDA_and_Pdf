@@ -1,1 +1,28 @@
+Summary of Tasks Completed in the Data Science Intern Assignment
 
+Data Overview:
+Analyzed an eCommerce Transactions dataset consisting of three files: Customers.csv, Products.csv, and Transactions.csv.
+Each file contained relevant information about customers, products, and transaction details.
+
+Task 1: Exploratory Data Analysis (EDA):
+Conducted EDA to understand the structure and content of the datasets.
+Identified key patterns and trends within the data.
+Derived at least five business insights based on the analysis, highlighting customer behavior and product performance.
+Delivered a Jupyter Notebook containing EDA code and a PDF report summarizing the insights.
+
+Task 2: Lookalike Model:
+Built a Lookalike Model that takes user information as input to recommend three similar customers based on their profiles and transaction histories.
+Utilized both customer and product information for generating recommendations.
+Assigned similarity scores to each recommended customer.
+Created a Lookalike.csv file mapping CustomerIDs to their top three lookalikes along with similarity scores for the first 20 customers (C0001 to C0020).
+Documented the model development process in a Jupyter Notebook.
+
+Task 3: Customer Segmentation / Clustering:
+Performed customer segmentation using clustering techniques, incorporating both profile information from Customers.csv and transaction data from Transactions.csv.
+Chose an appropriate clustering algorithm and determined the number of clusters (4 clusters were formed).
+Calculated clustering metrics, including the Davies-Bouldin Index (DB Index), to evaluate cluster quality.
+Visualized clusters using scatter plots to illustrate customer segments based on spending behavior and transaction frequency.
+Prepared a report detailing clustering results, including the number of clusters formed, DB Index value, and other relevant metrics.
+
+Final Deliverables:
+Uploaded all files to a public GitHub repository following the specified naming conventions for easy access and evaluation.
